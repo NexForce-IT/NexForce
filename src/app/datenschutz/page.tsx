@@ -210,7 +210,7 @@ export default function Datenschutz() {
                 63477 Maintal, Deutschland
                 <br />
                 <br />
-                Telefon: +49 6109 09664037
+                Telefon: +49 6109 9664037
                 <br />
                 E-Mail:{" "}
                 <a
