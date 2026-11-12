@@ -668,7 +668,7 @@ const Header = () => {
               width={216}
               height={100}
               alt="NEXFORCEIT"
-              className="w-[140px] sm:w-[170px] lg:w-[216px] h-auto"
+              className="w-[140px] sm:w-[170px] lg:w-[216px] h-auto object-contain"
               priority
             />
           </Link>
