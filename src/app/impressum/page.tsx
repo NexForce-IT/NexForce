@@ -56,9 +56,15 @@ export default function Impressum() {
               </p>
 
               <h3>Kontakt</h3>
-              <p>
-                Telefon: +49 6109 9664037
-                <br />
+                <p>
+                  Telefon:{" "}
+                  <a
+                    href="tel:+4961099664037"
+                    className="text-[#0066FF] hover:text-white transition-colors"
+                  >
+                    +49 6109 9664037
+                  </a>
+                  <br />
                 E-Mail:{" "}
                 <a
                   href="mailto:info@nexforce-it.com"
