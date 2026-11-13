@@ -210,8 +210,14 @@ export default function Datenschutz() {
                 63477 Maintal, Deutschland
                 <br />
                 <br />
-                Telefon: +49 6109 9664037
-                <br />
+                  Telefon:{" "}
+                  <a
+                    href="tel:+4961099664037"
+                    className="text-[#0066FF] hover:text-white transition-colors"
+                  >
+                    +49 6109 9664037
+                  </a>
+                  <br />
                 E-Mail:{" "}
                 <a
                   href="mailto:info@nexforce-it.com"
