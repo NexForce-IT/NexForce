@@ -351,66 +351,55 @@ const Header = () => {
   // Only runs on Home page
   // --------------------------------------------------
 
-  useEffect(() => {
-    if (!mounted || pathname !== "/") return;
+useEffect(() => {
+  if (!mounted || pathname !== "/") return;
 
-    const sections = navLinks
-      .map((item) =>
-        document.getElementById(item.id)
-      )
-      .filter(
-        (el): el is HTMLElement => el !== null
-      );
-
-    if (sections.length === 0) return;
+  const updateActive = () => {
+    if (isClickScrolling.current) return;
 
     const headerHeight =
       headerRef.current?.offsetHeight ?? 0;
 
-    const observer =
-      new IntersectionObserver(
-        (entries) => {
-          if (isClickScrolling.current) return;
+    const line =
+      headerHeight + SCROLL_EXTRA_GAP + 40;
 
-          const visible = entries.filter(
-            (entry) => entry.isIntersecting
-          );
+    // Page ke bilkul neeche pahunch gaye to Kontakt active
+    const atBottom =
+      window.innerHeight + window.scrollY >=
+      document.documentElement.scrollHeight - 5;
 
-          if (visible.length === 0) return;
+    if (atBottom) {
+      setActiveIndex(KONTAKT_INDEX);
+      return;
+    }
 
-          const closest = visible.reduce(
-            (prev, curr) =>
-              curr.boundingClientRect.top <
-              prev.boundingClientRect.top
-                ? curr
-                : prev
-          );
+    // Warna: jo aakhri section line ke upar pahunch chuka hai wo active
+    let current = -1;
 
-          const idx = navLinks.findIndex(
-            (item) =>
-              item.id === closest.target.id
-          );
+    navLinks.forEach((item, i) => {
+      const el = document.getElementById(item.id);
 
-          if (idx !== -1) {
-            setActiveIndex(idx);
-          }
-        },
-        {
-          root: null,
-          rootMargin: `-${
-            headerHeight + 30
-          }px 0px -65% 0px`,
-          threshold: 0,
-        }
-      );
+      if (el && el.getBoundingClientRect().top <= line) {
+        current = i;
+      }
+    });
 
-    sections.forEach((section) =>
-      observer.observe(section)
-    );
+    setActiveIndex(current);
+  };
 
-    return () => observer.disconnect();
-  }, [mounted, pathname]);
+  updateActive();
 
+  window.addEventListener("scroll", updateActive, {
+    passive: true,
+  });
+
+  window.addEventListener("resize", updateActive);
+
+  return () => {
+    window.removeEventListener("scroll", updateActive);
+    window.removeEventListener("resize", updateActive);
+  };
+}, [mounted, pathname]);
   // --------------------------------------------------
   // Header entrance animation
   // --------------------------------------------------

@@ -17,8 +17,9 @@ export default function Home() {
       <Choose />
       <Video />
       <Area />
+     
       <Contact />
-      <Cta />
+      
     </div>
   );
 }

@@ -405,7 +405,7 @@ const Services = () => {
           className="font-normal text-[16px] md:text-[18px] xl:text-[20px] leading-[24px] xl:leading-[25px] text-center text-white/80"
         >
           Von der einzelnen Installation bis zur umfassenden technischen
-          Umsetzung – wir bieten zuverlässigen IT-Service für Unternehmen und
+          Umsetzung, bieten wir zuverlässigen IT-Service für Unternehmen und
           Privatkunden.
         </p>
       </div>

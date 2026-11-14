@@ -135,11 +135,15 @@ const [formData, setFormData] = useState({
     <section id="kontakt" ref={sectionRef} className="bg-black xl:pb-10 2xl:pb-16 2xl:pt-20">
       <div className="max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-10">
         <h2 ref={headingRef} className="font-bold text-[28px] md:text-[36px] xl:text-[40px] leading-[36px] sm:leading-[44px] lg:leading-[50px] text-center text-white pb-[1.5vh] uppercase">
-          Lassen Sie uns sprechen
+          Sie benötigen technische
+            <br />
+            Unterstützung?
         </h2>
-        <p ref={paraRef} className="font-normal text-[16px] md:text-[18px] xl:text-[20px] leading-[24px] xl:leading-[25px] text-center max-w-[824px] mx-auto text-white/80">
-          Gemeinsam finden wir die passende IT-Lösung für Ihr Unternehmen. Wir
-          freuen uns auf Ihre Nachricht und beraten Sie gerne unverbindlich.
+        <p ref={paraRef} className="font-normal text-[16px] md:text-[18px] xl:text-[20px] leading-[24px] xl:leading-[25px] text-center max-w-[1100px] mx-auto text-white/80">
+            Sie haben Fragen zu unseren Leistungen oder benötigen
+            Unterstützung bei einem IT-Projekt? Kontaktieren Sie uns
+            gerne. Wir besprechen Ihre Anforderungen und finden
+            gemeinsam eine passende Lösung.
         </p>
 
         {/* Height ab har breakpoint pe explicit hai; items-stretch se dono children usi height tak stretch hote hain */}
@@ -240,23 +244,6 @@ const [formData, setFormData] = useState({
                   />
                 </div>
 
-
-
-                {/* <div>
-                  <label className="block text-white text-[14px] xl:text-[16px] font-semibold mb-1.5">Betreff *</label>
-                  <select
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    className="w-full bg-transparent border border-white/20 rounded-lg px-4 py-2 text-[#E2E8F0] text-[14px] focus:outline-none focus:border-blue-500 transition-colors"
-                  >
-                    <option value="" className="bg-[#060B1F]">Bitte auswählen</option>
-                    <option value="fieldservice" className="bg-[#060B1F]">Fieldservice und Vor Ort Support</option>
-                    <option value="netzwerk" className="bg-[#060B1F]">Netzwerk und WLAN</option>
-                    <option value="rollout" className="bg-[#060B1F]">Rollouts und Workplace</option>
-                    <option value="sonstiges" className="bg-[#060B1F]">Sonstiges</option>
-                  </select>
-                </div> */}
 
                 <div>
                   <label className="block text-white text-[14px] xl:text-[16px] font-semibold mb-1.5">Ihre Nachricht</label>
