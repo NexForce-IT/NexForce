@@ -52,7 +52,8 @@ export default function Impressum() {
               <p>
                 <strong className="text-white">Vertreten durch:</strong>
                 <br />
-                Nomer Malik
+                Nomer Malik 
+               
               </p>
 
               <h3>Kontakt</h3>

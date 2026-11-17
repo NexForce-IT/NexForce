@@ -19,7 +19,7 @@ export default function Datenschutz() {
             </span>
           </div>
 
-          <h1 className="font-bold text-[42px] sm:text-[52px] md:text-[64px] xl:text-[76px] leading-[0.95] uppercase max-w-[1000px]">
+          <h1 className="font-bold uppercase break-words hyphens-auto text-[calc(7vw)] leading-[calc(1em*1.15)] md:text-[50px] md:leading-[65px] lg:text-[60px] lg:leading-[75px] xl:text-[75px] xl:leading-[85px]" lang="de">
             Datenschutzerklärung
           </h1>
 
