@@ -288,10 +288,10 @@ const Footer = () => {
               <img src="/phone.svg" alt="" />
 
               <a
-                href="tel:+4961099664037"
+                href="tel:+4961099660113"
                 className="text-[16px] xl:text-[18px] text-white/80 hover:text-white transition-colors"
               >
-                +49 6109 9664037
+                +49 6109 9660113
               </a>
             </div>
           </div>
