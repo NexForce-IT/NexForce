@@ -1,5 +1,5 @@
 import Footer from "@/components/footer";
-import Link from "next/link";
+import link from "next/link";
 
 export default function Datenschutz() {
   return (
@@ -7,7 +7,7 @@ export default function Datenschutz() {
 
       {/* ================= HERO ================= */}
       <section className="relative pt-32 md:pt-40 pb-20 md:pb-28 overflow-hidden">
-        {/* Blue glow */}
+        Blue glow
         <div className="pointer-events-none absolute -top-40 -left-40 w-[500px] h-[500px] rounded-full bg-[#0066FF]/20 blur-[150px]" />
         <div className="pointer-events-none absolute top-20 right-[-250px] w-[500px] h-[500px] rounded-full bg-[#0066FF]/10 blur-[150px]" />
 
@@ -15,18 +15,18 @@ export default function Datenschutz() {
           <div className="flex items-center gap-3 mb-6">
             <span className="w-5 h-[5px] rounded-full bg-[#0066FF]" />
             <span className="text-[#0066FF] font-bold text-[11px] md:text-[13px] tracking-[2px] uppercase">
-              Rechtliche Informationen
+              Legal information
             </span>
           </div>
 
           <h1 className="font-bold uppercase break-words hyphens-auto text-[calc(7vw)] leading-[calc(1em*1.15)] md:text-[50px] md:leading-[65px] lg:text-[60px] lg:leading-[75px] xl:text-[75px] xl:leading-[85px]" lang="de">
-            Datenschutzerklärung
+            Privacy Policy
           </h1>
 
           <p className="mt-8 max-w-[760px] text-white/65 text-[16px] md:text-[18px] leading-[1.7]">
-            Die folgenden Informationen geben Ihnen einen Überblick darüber,
-            was mit Ihren personenbezogenen Daten passiert, wenn Sie diese
-            Website besuchen.
+            The following information gives you an overview of,
+            what happens to your personal data when you
+            Visit the website.
           </p>
         </div>
       </section>
@@ -36,90 +36,90 @@ export default function Datenschutz() {
         <div className="max-w-[1150px] mx-auto px-5 sm:px-8 lg:px-10 space-y-6">
 
           {/* 01 */}
-          <PrivacySection number="01" title="Datenschutz auf einen Blick">
-            <h3>Allgemeine Hinweise</h3>
+          <PrivacySection number="01" title="Data protection at a glance">
+            <h3>General Information</h3>
 
             <p>
-              Die folgenden Hinweise geben einen einfachen Überblick darüber,
-              was mit Ihren personenbezogenen Daten passiert, wenn Sie diese
-              Website besuchen. Personenbezogene Daten sind alle Daten, mit
-              denen Sie persönlich identifiziert werden können. Ausführliche
-              Informationen zum Thema Datenschutz entnehmen Sie unserer unter
-              diesem Text aufgeführten Datenschutzerklärung.
+              The following information provides a simple overview of...
+              what happens to your personal data when you
+              Visit website. Personal data is any data relating to an identified or identifiable natural person.
+              which can personally identify you. Detailed
+              For information on data protection, please see our [link/section/etc.]
+              Privacy policy listed in this text.
             </p>
 
-            <h3>Datenerfassung auf dieser Website</h3>
+            <h3>Data collection on this website</h3>
 
-            <h4>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</h4>
+            Who is responsible for data collection on this website?
 
             <p>
-              Die Datenverarbeitung auf dieser Website erfolgt durch den
-              Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt
-              „Hinweis zur verantwortlichen Stelle“ in dieser
-              Datenschutzerklärung entnehmen.
+              Data processing on this website is carried out by the
+              Website operator. Their contact details can be found in the section
+              “Note regarding the responsible body” in this
+              See privacy policy.
             </p>
 
-            <h4>Wie erfassen wir Ihre Daten?</h4>
+            How do we collect your data?
 
             <p>
-              Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese
-              mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie
-              in ein Kontaktformular eingeben.
-            </p>
-
-            <p>
-              Andere Daten werden automatisch oder nach Ihrer Einwilligung beim
-              Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor
-              allem technische Daten (z. B. Internetbrowser, Betriebssystem
-              oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten
-              erfolgt automatisch, sobald Sie diese Website betreten.
-            </p>
-
-            <h4>Wofür nutzen wir Ihre Daten?</h4>
-
-            <p>
-              Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung
-              der Website zu gewährleisten. Andere Daten können zur Analyse
-              Ihres Nutzerverhaltens verwendet werden. Sofern über die Website
-              Verträge geschlossen oder angebahnt werden können, werden die
-              übermittelten Daten auch für Vertragsangebote, Bestellungen oder
-              sonstige Auftragsanfragen verarbeitet.
-            </p>
-
-            <h4>Welche Rechte haben Sie bezüglich Ihrer Daten?</h4>
-
-            <p>
-              Sie haben jederzeit das Recht, unentgeltlich Auskunft über
-              Herkunft, Empfänger und Zweck Ihrer gespeicherten
-              personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht
-              auf die Berichtigung oder Löschung dieser Daten. Wenn Sie eine
-              Einwilligung zur Datenverarbeitung erteilt haben, können Sie
-              diese Einwilligung jederzeit für die Zukunft widerrufen.
-              Außerdem haben Sie das Recht, unter bestimmten Umständen die
-              Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu
-              verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der
-              zuständigen Aufsichtsbehörde zu.
+              Your data is collected, firstly, because you provide this to us.
+              inform us. This could include, for example, data that you
+              Enter your information into a contact form.
             </p>
 
             <p>
-              Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie
-              sich jederzeit an uns wenden.
+              Other data is automatically or with your consent when
+              Website visits are recorded by our IT systems. This includes...
+              all technical data (e.g. internet browser, operating system)
+              or the time of the page view). The collection of this data
+              This happens automatically as soon as you enter this website.
+            </p>
+
+            <h4>What do we use your data for?</h4>
+
+            <p>
+              Some of the data is collected to ensure error-free provision.
+              to ensure the website's functionality. Other data may be used for analysis.
+              Your user behavior will be used. If you use the website
+              Contracts can be concluded or initiated, the
+              transmitted data also for contract offers, orders or
+              Other order requests processed.
+            </p>
+
+            <h4>What rights do you have regarding your data?</h4>
+
+            <p>
+              You have the right to request information free of charge at any time about
+              Origin, recipients and purpose of your stored data
+              to receive personal data. You also have a right
+              to the correction or deletion of this data. If you have a
+              If you have given your consent to data processing, you can
+              You may revoke this consent at any time for the future.
+              Furthermore, you have the right, under certain circumstances, to
+              Restriction of the processing of your personal data
+              demand. Furthermore, you have the right to lodge a complaint with the
+              to the competent supervisory authority.
+            </p>
+
+            <p>
+              For this and other questions regarding data protection, you can
+              Please feel free to contact us at any time.
             </p>
           </PrivacySection>
 
           {/* 02 */}
           <PrivacySection number="02" title="Hosting">
             <p>
-              Wir hosten die Inhalte unserer Website bei folgendem Anbieter:
+              We host the content of our website with the following provider:
             </p>
 
             <h3>IONOS</h3>
 
             <p>
-              Anbieter ist die IONOS SE, Elgendorfer Str. 57, 56410 Montabaur
-              (nachfolgend IONOS). Wenn Sie unsere Website besuchen, erfasst
-              IONOS verschiedene Logfiles inklusive Ihrer IP-Adressen. Details
-              entnehmen Sie der Datenschutzerklärung von IONOS:
+              The provider is IONOS SE, Elgendorfer Str. 57, 56410 Montabaur
+              (hereinafter IONOS). When you visit our website, data is collected.
+              IONOS stores various log files, including your IP addresses. Details
+              Please refer to the IONOS privacy policy:
             </p>
 
             <p>
@@ -134,91 +134,91 @@ export default function Datenschutz() {
             </p>
 
             <p>
-              Die Verwendung von IONOS erfolgt auf Grundlage von Art. 6 Abs. 1
-              lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer
-              möglichst zuverlässigen Darstellung unserer Website. Sofern eine
-              entsprechende Einwilligung abgefragt wurde, erfolgt die
-              Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit.
-              a DSGVO und § 25 Abs. 1 TDDDG, soweit die Einwilligung die
-              Speicherung von Cookies oder den Zugriff auf Informationen im
-              Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des
-              TDDDG umfasst. Die Einwilligung ist jederzeit widerrufbar.
+              The use of IONOS is based on Article 6, paragraph 1.
+              lit. f GDPR. We have a legitimate interest in a
+              to ensure the most reliable presentation of our website. If a
+              Once the appropriate consent has been requested, the
+              Processing is carried out exclusively on the basis of Article 6(1)(a).
+              a GDPR and Section 25 Paragraph 1 TDDDG, insofar as the consent
+              Storing cookies or accessing information in
+              User's end device (e.g., device fingerprinting) within the meaning of
+              TDDDG is included. Consent can be revoked at any time.
             </p>
 
-            <h4>Auftragsverarbeitung</h4>
+            <h4>Order processing</h4>
 
             <p>
-              Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur
-              Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt
-              es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag,
-              der gewährleistet, dass dieser die personenbezogenen Daten
-              unserer Websitebesucher nur nach unseren Weisungen und unter
-              Einhaltung der DSGVO verarbeitet.
+              We have a data processing agreement (DPA) for
+              Use of the above-mentioned service is closed. This is a matter of
+              it is a contract required under data protection law,
+              which ensures that this personal data
+              Our website visitors only according to our instructions and under
+              Processed in compliance with the GDPR.
             </p>
           </PrivacySection>
 
           {/* 03 */}
           <PrivacySection
             number="03"
-            title="Allgemeine Hinweise und Pflichtinformationen"
+            title="General Information and Mandatory Disclosures"
           >
-            <h3>Datenschutz</h3>
+            <h3>Data protection</h3>
 
             <p>
-              Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen
-              Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten
-              vertraulich und entsprechend den gesetzlichen
-              Datenschutzvorschriften sowie dieser Datenschutzerklärung.
+              The operators of these pages take the protection of your personal data seriously.
+              We take data very seriously. We treat your personal data with respect.
+              confidential and in accordance with legal requirements
+              Data protection regulations and this privacy policy.
             </p>
 
             <p>
-              Wenn Sie diese Website benutzen, werden verschiedene
-              personenbezogene Daten erhoben. Personenbezogene Daten sind
-              Daten, mit denen Sie persönlich identifiziert werden können. Die
-              vorliegende Datenschutzerklärung erläutert, welche Daten wir
-              erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu
-              welchem Zweck das geschieht.
+              When you use this website, various
+              Personal data is collected. Personal data is
+              Data that can be used to personally identify you.
+              This privacy policy explains what data we collect.
+              collect data and what we use it for. She also explains how and to
+              for what purpose this is done.
             </p>
 
             <p>
-              Wir weisen darauf hin, dass die Datenübertragung im Internet (z.
-              B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen
-              kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch
-              Dritte ist nicht möglich.
+              We would like to point out that data transmission on the Internet (e.g.
+              B. in communication via e-mail) have security vulnerabilities
+              can. Complete protection of the data from access by
+              A third option is not possible.
             </p>
 
-            <h3>Hinweis zur verantwortlichen Stelle</h3>
+            <h3>Note regarding the responsible body</h3>
 
             <p>
-              Die verantwortliche Stelle für die Datenverarbeitung auf dieser
-              Website ist:
+              The responsible body for data processing on this
+              Website is:
             </p>
 
             {/* Company information */}
             <div className="my-8 rounded-2xl border border-white/10 bg-[#03060F] p-6 md:p-8">
               <p className="!mb-2 !text-white !font-semibold">
-                NexForce-IT UG (haftungsbeschränkt)
+                NexForce-IT UG (limited liability)
               </p>
 
               <p className="!mb-0">
-                vertreten durch den Geschäftsführer
+                represented by the managing director
                 <br />
                 Nomer Ahmed Malik
                 <br />
                 Eduard-Mörike-Str. 10
                 <br />
-                63477 Maintal, Deutschland
+                63477 Maintal, Germany
                 <br />
                 <br />
-                  Telefon:{" "}
+                  Telephone:{" "}
                   <a
-                    href="tel:+4961099664037"
+                    href="tel:+4961099660113"
                     className="text-[#0066FF] hover:text-white transition-colors"
                   >
-                    +49 6109 9664037
+                    +49 6109 9660113
                   </a>
                   <br />
-                E-Mail:{" "}
+                Email:{" "}
                 <a
                   href="mailto:info@nexforce-it.com"
                   className="text-[#0066FF] hover:text-white transition-colors"
@@ -229,352 +229,352 @@ export default function Datenschutz() {
             </div>
 
             <p>
-              Verantwortliche Stelle ist die natürliche oder juristische
-              Person, die allein oder gemeinsam mit anderen über die Zwecke
-              und Mittel der Verarbeitung von personenbezogenen Daten (z. B.
-              Namen, E-Mail-Adressen o. Ä.) entscheidet.
+              The responsible body is the natural or legal person
+              Person who, alone or jointly with others, considers the purposes
+              and means of processing personal data (e.g.
+              names, email addresses, etc.) decides.
             </p>
 
-            <h3>Speicherdauer</h3>
+            <h3>Storage duration</h3>
 
             <p>
-              Soweit innerhalb dieser Datenschutzerklärung keine speziellere
-              Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen
-              Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt.
-              Wenn Sie ein berechtigtes Löschersuchen geltend machen oder eine
-              Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten
-              gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe
-              für die Speicherung Ihrer personenbezogenen Daten haben (z. B.
-              steuer- oder handelsrechtliche Aufbewahrungsfristen); im
-              letztgenannten Fall erfolgt die Löschung nach Fortfall dieser
-              Gründe.
+              Unless otherwise specified within this privacy policy
+              As stated above, your personal data will remain stored for a certain period.
+              We retain your data until the purpose for processing it no longer applies.
+              If you are making a legitimate request for erasure or a
+              If you withdraw your consent to data processing, your data will be deleted.
+              deleted unless we have other legally permissible reasons
+              for the storage of your personal data (e.g.
+              tax or commercial law retention periods); in
+              In the latter case, deletion occurs after this [reason] ceases to exist.
+              Reasons.
             </p>
 
             <h3>
-              Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung
-              auf dieser Website
+              General information on the legal basis for data processing
+              on this website
             </h3>
 
             <p>
-              Sofern Sie in die Datenverarbeitung eingewilligt haben,
-              verarbeiten wir Ihre personenbezogenen Daten auf Grundlage von
-              Art. 6 Abs. 1 lit. a DSGVO bzw. Art. 9 Abs. 2 lit. a DSGVO,
-              sofern besondere Datenkategorien nach Art. 9 Abs. 1 DSGVO
-              verarbeitet werden. Im Falle einer ausdrücklichen Einwilligung
-              in die Übertragung personenbezogener Daten in Drittstaaten
-              erfolgt die Datenverarbeitung außerdem auf Grundlage von Art. 49
-              Abs. 1 lit. a DSGVO. Sofern Sie in die Speicherung von Cookies
-              oder in den Zugriff auf Informationen in Ihr Endgerät (z. B. via
-              Device-Fingerprinting) eingewilligt haben, erfolgt die
-              Datenverarbeitung zusätzlich auf Grundlage von § 25 Abs. 1 TDDDG.
-              Die Einwilligung ist jederzeit widerrufbar. Sind Ihre Daten zur
-              Vertragserfüllung oder zur Durchführung vorvertraglicher
-              Maßnahmen erforderlich, verarbeiten wir Ihre Daten auf Grundlage
-              des Art. 6 Abs. 1 lit. b DSGVO. Des Weiteren verarbeiten wir Ihre
-              Daten, sofern diese zur Erfüllung einer rechtlichen Verpflichtung
-              erforderlich sind, auf Grundlage des Art. 6 Abs. 1 lit. c DSGVO.
-              Die Datenverarbeitung kann ferner auf Grundlage unseres
-              berechtigten Interesses nach Art. 6 Abs. 1 lit. f DSGVO erfolgen.
-              Über die jeweils im Einzelfall einschlägigen Rechtsgrundlagen
-              wird in den folgenden Absätzen dieser Datenschutzerklärung
-              informiert.
+              Provided you have consented to the data processing,
+              We process your personal data on the basis of
+              Article 6 paragraph 1 letter a GDPR or Article 9 paragraph 2 letter a GDPR,
+              provided that special categories of data are processed in accordance with Article 9(1) GDPR
+              will be processed. In the case of explicit consent.
+              the transfer of personal data to third countries
+              Data processing is also carried out on the basis of Article 49.
+              Article 1(a) GDPR. If you consent to the storage of cookies
+              or access to information on your device (e.g., via
+              If you have consented to device fingerprinting, the process will take place.
+              Data processing is additionally based on Section 25 Paragraph 1 TDDDG.
+              Consent can be withdrawn at any time. Are your data for
+              Contract fulfillment or for the performance of pre-contractual
+              If measures are necessary, we process your data on this basis
+              of Article 6 paragraph 1 letter b GDPR. Furthermore, we process your
+              Data, insofar as this is necessary for the fulfillment of a legal obligation
+              are required on the basis of Art. 6 para. 1 lit. c GDPR.
+              Data processing may also be based on our
+              legitimate interest pursuant to Art. 6 para. 1 lit. f GDPR.
+              Regarding the relevant legal bases in each individual case
+              will be discussed in the following paragraphs of this privacy policy
+              informed.
             </p>
 
-            <h3>Empfänger von personenbezogenen Daten</h3>
+            <h3>Recipients of personal data</h3>
 
             <p>
-              Im Rahmen unserer Geschäftstätigkeit arbeiten wir mit
-              verschiedenen externen Stellen zusammen. Dabei ist teilweise auch
-              eine Übermittlung von personenbezogenen Daten an diese externen
-              Stellen erforderlich. Wir geben personenbezogene Daten nur dann
-              an externe Stellen weiter, wenn dies im Rahmen einer
-              Vertragserfüllung erforderlich ist, wenn wir gesetzlich hierzu
-              verpflichtet sind (z. B. Weitergabe von Daten an
-              Steuerbehörden), wenn wir ein berechtigtes Interesse nach Art. 6
-              Abs. 1 lit. f DSGVO an der Weitergabe haben oder wenn eine
-              sonstige Rechtsgrundlage die Datenweitergabe erlaubt. Beim Einsatz
-              von Auftragsverarbeitern geben wir personenbezogene Daten unserer
-              Kunden nur auf Grundlage eines gültigen Vertrags über
-              Auftragsverarbeitung weiter. Im Falle einer gemeinsamen
-              Verarbeitung wird ein Vertrag über gemeinsame Verarbeitung
-              geschlossen.
+              As part of our business activities, we work with
+              various external bodies. This also sometimes involves
+              a transfer of personal data to these external parties
+              Positions required. We only share personal data if
+              to external bodies if this is done within the framework of a
+              Contract fulfillment is required if we are legally obligated to do so.
+              are obligated (e.g., to disclose data to
+              tax authorities), if we have a legitimate interest under Article 6
+              paragraph 1 letter f GDPR have consented to the transfer or if a
+              other legal basis that permits data transfer. When used
+              We do not disclose personal data of ours to data processors.
+              Customers only on the basis of a valid contract regarding
+              Order processing continues. In the case of joint
+              Processing will be governed by a joint processing agreement.
+              closed.
             </p>
 
-            <h3>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h3>
+            <h3>Revocation of your consent to data processing</h3>
 
             <p>
-              Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen
-              Einwilligung möglich. Sie können eine bereits erteilte
-              Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum
-              Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf
-              unberührt.
+              Many data processing operations are only possible with your explicit consent.
+              Consent is possible. You can revoke previously given consent.
+              Withdraw your consent at any time. The legality of the data processed up to the
+              Data processing carried out under a revocation remains unaffected by the revocation.
+              untouched.
             </p>
 
             <h3>
-              Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen
-              sowie gegen Direktwerbung (Art. 21 DSGVO)
+              Right to object to data collection in special cases
+              as well as against direct marketing (Art. 21 GDPR)
             </h3>
 
             <p className="uppercase">
-              WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E
-              ODER F DSGVO ERFOLGT, HABEN SIE JEDERZEIT DAS RECHT, AUS GRÜNDEN,
-              DIE SICH AUS IHRER BESONDEREN SITUATION ERGEBEN, GEGEN DIE
-              VERARBEITUNG IHRER PERSONENBEZOGENEN DATEN WIDERSPRUCH
-              EINZULEGEN; DIES GILT AUCH FÜR EIN AUF DIESE BESTIMMUNGEN
-              GESTÜTZTES PROFILING. DIE JEWEILIGE RECHTSGRUNDLAGE, AUF DENEN
-              EINE VERARBEITUNG BERUHT, ENTNEHMEN SIE DIESER
-              DATENSCHUTZERKLÄRUNG. WENN SIE WIDERSPRUCH EINLEGEN, WERDEN WIR
-              IHRE BETROFFENEN PERSONENBEZOGENEN DATEN NICHT MEHR VERARBEITEN,
-              ES SEI DENN, WIR KÖNNEN ZWINGENDE SCHUTZWÜRDIGE GRÜNDE FÜR DIE
-              VERARBEITUNG NACHWEISEN, DIE IHRE INTERESSEN, RECHTE UND
-              FREIHEITEN ÜBERWIEGEN ODER DIE VERARBEITUNG DIENT DER
-              GELTENDMACHUNG, AUSÜBUNG ODER VERTEIDIGUNG VON RECHTSANSPRÜCHEN
-              (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO).
+              IF THE DATA PROCESSING IS BASED ON ART. 6 PARA. 1 LIT. E
+              OR IF GDPR ACTIVATES, YOU HAVE THE RIGHT TO OBJECT TO PROCESSING YOUR PERSONAL DATA AT ANY TIME FOR REASONABLE REASONS.
+              WHICH ARE RESULTING FROM THEIR PARTICULAR SITUATION, AGAINST THE
+              OBJECTION TO THE PROCESSING OF YOUR PERSONAL DATA
+              TO BE ENTERED IN; THIS ALSO APPLIES TO ANY RESOURCE RELATING TO THESE PROVISIONS
+              SUPPORTED PROFILING. THE RESPECTIVE LEGAL BASIS ON WHICH
+              PROCESSING IS RELIED, PLEASE REMEMBER THIS
+              DATA PROTECTION DECLARATION. IF YOU OBJECT, WE WILL
+              NO LONGER PROCESS YOUR PERSONAL DATA,
+              UNLESS WE CAN PROVIDE COMPELLING, PROTECTIVE REASONS FOR THE
+              PROOF OF PROCESSING THAT PROTECTS YOUR INTERESTS, RIGHTS AND
+              FREEDOMS OUTWEIGHT OR THE PROCESSING SERVES THE
+              Assertion, exercise or defense of legal claims
+              (OBJECTION PURSUANT TO ART. 21 PARA. 1 GDPR).
             </p>
 
             <p className="uppercase">
-              WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG
-              ZU BETREIBEN, SO HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN
-              DIE VERARBEITUNG SIE BETREFFENDER PERSONENBEZOGENER DATEN ZUM
-              ZWECKE DERARTIGEN WERBUNG EINZULEGEN; DIES GILT AUCH FÜR DAS
-              PROFILING, SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN VERBINDUNG
-              STEHT. WENN SIE WIDERSPRECHEN, WERDEN IHRE PERSONENBEZOGENEN
-              DATEN ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER DIREKTWERBUNG
-              VERWENDET (WIDERSPRUCH NACH ART. 21 ABS. 2 DSGVO).
+              WILL YOUR PERSONAL DATA BE PROCESSED FOR DIRECT MARKETING?
+              TO USE, YOU HAVE THE RIGHT TO OBJECT AT ANY TIME
+              THE PROCESSING OF PERSONAL DATA CONCERNING YOU FOR THE
+              TO USE SUCH ADVERTISING FOR PURPOSES; THIS ALSO APPLIES TO THE
+              PROFILING, IN IF IT IS CONNECTED WITH SUCH DIRECT ADVERTISING
+              STANDS. IF YOU DISCLAIM, YOUR PERSONAL DATA WILL BE SUBJECT TO DISCLAIMER.
+              DATA WILL NO LONGER BE USED FOR DIRECT MARKETING PURPOSES.
+              USED ​​(OBJECTION PURSUANT TO ART. 21 PARA. 2 GDPR).
             </p>
 
-            <h3>Beschwerderecht bei der zuständigen Aufsichtsbehörde</h3>
+            <h3>Right to lodge a complaint with the competent supervisory authority</h3>
 
             <p>
-              Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein
-              Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem
-              Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes
-              oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht
-              besteht unbeschadet anderweitiger verwaltungsrechtlicher oder
-              gerichtlicher Rechtsbehelfe.
+              In the event of violations of the GDPR, those affected have a right to legal redress.
+              Right to lodge a complaint with a supervisory authority, in particular in the
+              Member State of their habitual residence, their place of work
+              or the place of the alleged violation. The right to appeal
+              exists without prejudice to other administrative or
+              judicial remedies.
             </p>
 
-            <h3>Recht auf Datenübertragbarkeit</h3>
+            <h3>Right to data portability</h3>
 
             <p>
-              Sie haben das Recht, Daten, die wir auf Grundlage Ihrer
-              Einwilligung oder in Erfüllung eines Vertrags automatisiert
-              verarbeiten, an sich oder an einen Dritten in einem gängigen,
-              maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die
-              direkte Übertragung der Daten an einen anderen Verantwortlichen
-              verlangen, erfolgt dies nur, soweit es technisch machbar ist.
+              You have the right to access data that we process based on your
+              consent or in fulfillment of a contract automated
+              process, to oneself or to a third party in a commonly used,
+              to have it provided in a machine-readable format. If you request the
+              direct transfer of the data to another controller
+              If requested, this will only be done to the extent that it is technically feasible.
             </p>
 
-            <h3>Auskunft, Berichtigung und Löschung</h3>
+            <h3>Information, correction and deletion</h3>
 
             <p>
-              Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen
-              jederzeit das Recht auf unentgeltliche Auskunft über Ihre
-              gespeicherten personenbezogenen Daten, deren Herkunft und
-              Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht
-              auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu
-              weiteren Fragen zum Thema personenbezogene Daten können Sie sich
-              jederzeit an uns wenden.
+              They have within the framework of the applicable legal provisions
+              You have the right to free information about your data at any time.
+              stored personal data, its origin and
+              Recipients and the purpose of data processing and, if applicable, a right
+              for the correction or deletion of this data. For this purpose, as well as for
+              For further questions regarding personal data, please contact us.
+              Contact us anytime.
             </p>
 
-            <h3>Recht auf Einschränkung der Verarbeitung</h3>
+            <h3>Right to restriction of processing</h3>
 
             <p>
-              Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer
-              personenbezogenen Daten zu verlangen. Hierzu können Sie sich
-              jederzeit an uns wenden. Das Recht auf Einschränkung der
-              Verarbeitung besteht in folgenden Fällen:
+              You have the right to restrict the processing of your
+              to request personal data. You can do this by contacting us.
+              You can contact us at any time. The right to restrict the
+              Processing occurs in the following cases:
             </p>
 
             <ul>
               <li>
-                Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten
-                personenbezogenen Daten bestreiten, benötigen wir in der Regel
-                Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben
-                Sie das Recht, die Einschränkung der Verarbeitung Ihrer
-                personenbezogenen Daten zu verlangen.
+                If you wish to verify the accuracy of your data stored with us
+                If you dispute the personal data, we generally require...
+                Time to verify this. For the duration of the audit, you have
+                You have the right to restrict the processing of your
+                to request personal data.
               </li>
 
               <li>
-                Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig
-                geschah/geschieht, können Sie statt der Löschung die
-                Einschränkung der Datenverarbeitung verlangen.
+                If the processing of your personal data is unlawful
+                If this happened/is happening, you can, instead of deleting it,
+                Request restriction of data processing.
               </li>
 
               <li>
-                Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie
-                sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von
-                Rechtsansprüchen benötigen, haben Sie das Recht, statt der
-                Löschung die Einschränkung der Verarbeitung Ihrer
-                personenbezogenen Daten zu verlangen.
+                If we no longer need your personal data, you
+                However, they are used for the exercise, defense, or assertion of
+                If you require legal remedies, you have the right to, instead of the
+                Deletion or restriction of processing of your data
+                to request personal data.
               </li>
 
               <li>
-                Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt
-                haben, muss eine Abwägung zwischen Ihren und unseren Interessen
-                vorgenommen werden. Solange noch nicht feststeht, wessen
-                Interessen überwiegen, haben Sie das Recht, die Einschränkung
-                der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
+                If you have lodged an objection pursuant to Article 21(1) GDPR
+                There needs to be a balancing of your interests and ours.
+                to be carried out. As long as it is not yet clear whose
+                If your interests outweigh others, you have the right to restrict the restriction.
+                to request the processing of your personal data.
               </li>
             </ul>
 
             <p>
-              Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten
-              eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung
-              abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung,
-              Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz
-              der Rechte einer anderen natürlichen oder juristischen Person oder
-              aus Gründen eines wichtigen öffentlichen Interesses der
-              Europäischen Union oder eines Mitgliedstaats verarbeitet werden.
+              If you consent to the processing of your personal data
+              If you have restricted this data, you may – from its storage –
+              except – only with your consent or for the purpose of asserting,
+              Exercise or defense of legal claims or for protection
+              the rights of another natural or legal person or
+              for reasons of important public interest of the
+              will be processed within the European Union or a member state.
             </p>
           </PrivacySection>
 
           {/* 04 */}
           <PrivacySection
             number="04"
-            title="Datenerfassung auf dieser Website"
+            title="Data collection on this website"
           >
-            <h3>Server-Log-Dateien</h3>
+            <h3>Server log files</h3>
 
             <p>
-              Der Provider der Seiten erhebt und speichert automatisch
-              Informationen in so genannten Server-Log-Dateien, die Ihr Browser
-              automatisch an uns übermittelt. Dies sind:
+              The website provider automatically collects and stores data.
+              Information in so-called server log files, which your browser
+              automatically transmitted to us. These are:
             </p>
 
             <ul>
-              <li>Browsertyp und Browserversion</li>
-              <li>verwendetes Betriebssystem</li>
+              <li>Browser type and browser version</li>
+              <li>operating system used</li>
               <li>Referrer URL</li>
-              <li>Hostname des zugreifenden Rechners</li>
-              <li>Uhrzeit der Serveranfrage</li>
-              <li>IP-Adresse</li>
+              <li>Hostname of the accessing computer</li>
+              <li>Time of server request</li>
+              <li>IP address</li>
             </ul>
 
             <p>
-              Eine Zusammenführung dieser Daten mit anderen Datenquellen wird
-              nicht vorgenommen.
+              A merging of this data with other data sources will
+              not done.
             </p>
 
             <p>
-              Die Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs.
-              1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes
-              Interesse an der technisch fehlerfreien Darstellung und der
-              Optimierung seiner Website – hierzu müssen die Server-Log-Files
-              erfasst werden.
+              The collection of this data is based on Article 6, paragraph 1.
+              Article 6(1)(f) GDPR. The website operator has a legitimate interest.
+              Interest in the technically flawless presentation and the
+              Website optimization – for this, the server log files must be analyzed.
+              be recorded.
             </p>
 
-            <h3>Kontaktformular</h3>
+            <h3>Contact form</h3>
 
             <p>
-              Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden
-              Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort
-              angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für
-              den Fall von Anschlussfragen bei uns gespeichert. Diese Daten
-              geben wir nicht ohne Ihre Einwilligung weiter.
-            </p>
-
-            <p>
-              Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6
-              Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines
-              Vertrags zusammenhängt oder zur Durchführung vorvertraglicher
-              Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die
-              Verarbeitung auf unserem berechtigten Interesse an der effektiven
-              Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f
-              DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)
-              sofern diese abgefragt wurde; die Einwilligung ist jederzeit
-              widerrufbar.
+              If you send us inquiries via the contact form,
+              Your information from the inquiry form, including the information you provided there
+              The contact details provided are for the purpose of processing the request and for
+              In case of follow-up questions, this data is stored with us.
+              We will not share your information without your consent.
             </p>
 
             <p>
-              Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben
-              bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung
-              zur Speicherung widerrufen oder der Zweck für die Datenspeicherung
-              entfällt (z. B. nach abgeschlossener Bearbeitung Ihrer Anfrage).
-              Zwingende gesetzliche Bestimmungen – insbesondere
-              Aufbewahrungsfristen – bleiben unberührt.
-            </p>
-
-            <h3>Anfrage per E-Mail, Telefon oder Telefax</h3>
-
-            <p>
-              Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird
-              Ihre Anfrage inklusive aller daraus hervorgehenden
-              personenbezogenen Daten (Name, Anfrage) zum Zwecke der
-              Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet.
-              Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+              This data is processed on the basis of Article 6.
+              Article 1(b) GDPR, insofar as your request relates to the fulfillment of a
+              related to the contract or for the implementation of pre-contractual measures
+              Measures are required. In all other cases, the
+              Processing based on our legitimate interest in effective
+              Processing of requests addressed to us (Art. 6 para. 1 lit. f)
+              GDPR) or based on your consent (Art. 6 para. 1 lit. a GDPR)
+              provided that this was requested; consent can be withdrawn at any time
+              revocable.
             </p>
 
             <p>
-              Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6
-              Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines
-              Vertrags zusammenhängt oder zur Durchführung vorvertraglicher
-              Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die
-              Verarbeitung auf unserem berechtigten Interesse an der effektiven
-              Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f
-              DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)
-              sofern diese abgefragt wurde; die Einwilligung ist jederzeit
-              widerrufbar.
+              The data you entered in the contact form will remain
+              with us, until you request us to delete it, your consent
+              to revoke consent to data storage or the purpose for data storage
+              This is not necessary (e.g., after your request has been processed).
+              Mandatory legal provisions – in particular
+              Retention periods remain unaffected.
+            </p>
+
+            <h3>Inquiry via email, telephone or fax</h3>
+
+            <p>
+              If you contact us by email, telephone or fax,
+              Your request, including all resulting information
+              personal data (name, request) for the purpose of
+              Your request will be stored and processed by us.
+              We will not share this data without your consent.
             </p>
 
             <p>
-              Die von Ihnen an uns per Kontaktanfragen übersandten Daten
-              verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre
-              Einwilligung zur Speicherung widerrufen oder der Zweck für die
-              Datenspeicherung entfällt (z. B. nach abgeschlossener Bearbeitung
-              Ihres Anliegens). Zwingende gesetzliche Bestimmungen –
-              insbesondere gesetzliche Aufbewahrungsfristen – bleiben
-              unberührt.
+              This data is processed on the basis of Article 6.
+              Article 1(b) GDPR, insofar as your request relates to the fulfillment of a
+              related to the contract or for the implementation of pre-contractual measures
+              Measures are required. In all other cases, the
+              Processing based on our legitimate interest in effective
+              Processing of requests addressed to us (Art. 6 para. 1 lit. f)
+              GDPR) or based on your consent (Art. 6 para. 1 lit. a GDPR)
+              provided that this was requested; consent can be withdrawn at any time
+              revocable.
+            </p>
+
+            <p>
+              The data you send us via contact requests
+              Your data will remain with us until you request its deletion.
+              revoke consent to storage or change the purpose for which it was stored
+              Data storage is not required (e.g., after processing is complete).
+              Your request). Mandatory legal provisions –
+              in particular statutory retention periods – remain
+              untouched.
             </p>
           </PrivacySection>
 
           {/* 05 */}
           <PrivacySection number="05" title="IONOS WebAnalytics">
             <p>
-              Diese Website nutzt IONOS WebAnalytics zur statistischen
-              Auswertung und technischen Optimierung unseres Internetauftritts.
+              This website uses IONOS WebAnalytics for statistical analysis.
+              Evaluation and technical optimization of our website.
             </p>
 
             <p>
-              Nach Angaben von IONOS werden die Daten über einen Pixel oder über
-              Log-Dateien ermittelt. WebAnalytics verwendet keine Cookies. Die
-              IP-Adresse wird beim Seitenabruf übertragen und anschließend
-              unmittelbar anonymisiert, sodass die Auswertung ohne
-              Personenbezug erfolgt.
+              According to IONOS, the data is collected via a pixel or via
+              Log files are analyzed. WebAnalytics does not use cookies.
+              The IP address is transmitted when the page is requested and then
+              immediately anonymized, so that the evaluation can be carried out without
+              Personal data is collected.
             </p>
 
             <p>
-              Erfasst werden können insbesondere Referrer, angeforderte Seite
-              oder Datei, Browsertyp und Browserversion, Betriebssystem,
-              Gerätetyp, Zeitpunkt des Zugriffs sowie die IP-Adresse in
-              anonymisierter Form. IONOS gibt die für WebAnalytics erhobenen
-              Daten nach eigenen Angaben nicht an Dritte weiter.
+              The following data can be recorded in particular: referrer, requested page
+              or file, browser type and version, operating system,
+              Device type, time of access, and IP address in
+              anonymized form. IONOS publishes the data collected for web analytics.
+              According to their own statement, they do not pass on data to third parties.
             </p>
 
             <p>
-              Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f
-              DSGVO. Unser berechtigtes Interesse liegt in der statistischen
-              Auswertung und technischen Optimierung unserer Website.
+              The processing is based on Article 6(1)(f).
+              GDPR. Our legitimate interest lies in statistical analysis.
+              Evaluation and technical optimization of our website.
             </p>
           </PrivacySection>
 
           {/* 06 */}
-          <PrivacySection number="06" title="Soziale Medien">
-            <h3>Externe Links zu Instagram und LinkedIn</h3>
+          <PrivacySection number="06" title="Social Media">
+            <h3>External links to Instagram and LinkedIn</h3>
 
             <p>
-              Auf dieser Website befinden sich ausschließlich externe Links zu
-              unseren Profilen bei Instagram und LinkedIn. Beim bloßen Besuch
-              unserer Website wird über diese Links keine Verbindung zu den
-              Servern der jeweiligen Anbieter hergestellt.
+              This website contains only external links to
+              our profiles on Instagram and LinkedIn. Simply visiting
+              Our website does not establish any connection to the [unclear] via these links.
+              The servers of the respective providers are used.
             </p>
 
             <p>
-              Erst wenn Sie einen solchen Link anklicken, verlassen Sie unsere
-              Website und rufen die jeweilige Plattform auf. Ab diesem
-              Zeitpunkt erfolgt die Datenverarbeitung nach den
-              Datenschutzbestimmungen des jeweiligen Plattformbetreibers. Auf
-              diese Verarbeitung haben wir keinen Einfluss.
+              Only when you click on such a link will you leave our site.
+              Website and access the respective platform. From this point onwards
+              The data processing will take place at that time according to the
+              Privacy policy of the respective platform operator. On
+              We have no influence over this processing.
             </p>
           </PrivacySection>
 
@@ -588,7 +588,7 @@ export default function Datenschutz() {
 /* ================= REUSABLE SECTION ================= */
 
 function PrivacySection({
-  number,
+  number
   title,
   children,
 }: {
@@ -599,7 +599,7 @@ function PrivacySection({
   return (
     <section className="relative overflow-hidden rounded-[24px] border border-white/10 bg-[#03060F] p-6 sm:p-8 md:p-10 lg:p-12">
 
-      {/* Blue glow */}
+      Blue glow
       <div className="pointer-events-none absolute -top-40 -right-40 w-[400px] h-[400px] rounded-full bg-[#0066FF]/10 blur-[130px]" />
 
       <div className="relative z-10">
