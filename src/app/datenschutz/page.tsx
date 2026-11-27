@@ -588,7 +588,7 @@ export default function Datenschutz() {
 /* ================= REUSABLE SECTION ================= */
 
 function PrivacySection({
-  number
+  number,
   title,
   children,
 }: {
