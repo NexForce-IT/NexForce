@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Impressum | NexForce IT",
-  description: "Impressum und Anbieterkennzeichnung der NexForce-IT UG (haftungsbeschränkt)",
+  description: "Impressum und Anbieterkennzeichnung der NexForce-IT UG (haftungsbeschränkt).",
 };
 
 export default function Impressum() {
